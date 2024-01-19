@@ -70,22 +70,22 @@
             <hr>
             <div class="row">
               <div class="col-6">
-                <form action="izlaznastranica.html" method="post">
+                <form action="izlaznastranica.html" method="post" netlify>
                     <div class="mb-3">
                       <label for="name" class="form-label"><i class="fas fa-user"></i> Ime i prezime</label>
-                      <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime">
+                      <input type="name" name="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime">
                     </div>
                     <div class="mb-3">
                       <label for="e-mail" class="form-label"><i class="fas fa-envelope"></i> Email adresa</label>
-                      <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu">
+                      <input type="email" name="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu">
                     </div>
                     <div class="mb-3">
                       <label for="tel" class="form-label"><i class="fas fa-phone"></i> Telefon</label>
-                      <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Unesite Vaš br. telefona">
+                      <input type="tel" name="phone" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Unesite Vaš br. telefona">
                     </div>
                     <div class="mb-3">
                       <label for="subject" class="form-label"><i class="fas fa-heading"></i> Naslov poruke</label>
-                      <input type="text" class="form-control" id="text" aria-describedby="emailHelp" placeholder="Unesite naslov Vaše poruke">
+                      <input type="text" name="message" class="form-control" id="text" aria-describedby="emailHelp" placeholder="Unesite naslov Vaše poruke">
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputMessage1" class="form-label"><i class="fas fa-edit"></i> Poruka</label>
